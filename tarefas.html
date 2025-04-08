@@ -18,20 +18,117 @@
         <form>
 
             <label>
-                Tarefa pendente: <input type="text" name="tarefa">
+                <b>Tarefa pendente: </b><input type="text" name="tarefa">
             </label>
 
             <br>
             <br>
 
             <label>
-                Descrição da tarefa: <textarea name="descricao_tarefa"></textarea>
+                <b>Descrição da tarefa: </b><textarea name="descricao_tarefa"></textarea>
             </label>
+
+            <br>
+            <br>
 
             <label>
-                Palavras chave: <input type="checkbox" name="palavra_chave" value="">
+                <b>Informe a data de conclusão: </b><input type="date" name="data">
             </label>
 
+            <br>
+            <br>
+
+            <label>
+                <b>Nível de importância (0 a 10): </b>
+                <input type="range" name="importancia" min="0" max="10" step="1">
+            </label>
+
+            <br>
+            <br>
+
+            <label>
+                <b>Cor para definir esta tarefa: </b>
+                <input type="color" name="cor">
+            </label>
+
+            <br>
+            <br>
+            <hr>
+
+            <label>
+                <h4>Nível de andamento da tarefa:</h4>
+                <input type="radio" name="nivel_andamento" value="faculdade">Pendente
+                <br>
+                <input type="radio" name="nivel_andamento" value="faculdade">Já iniciada
+                <br>
+                <input type="radio" name="nivel_andamento" value="faculdade">Concluída
+                <br>
+            </label>
+
+            <br>
+            <hr>
+
+            <label>
+                <h4>Área da vida:</h4>
+                <input type="radio" name="area_vida" value="faculdade">Faculdade
+                <br>
+                <input type="radio" name="area_vida" value="trabalho">Trabalho
+                <br>
+                <input type="radio" name="area_vida" value="Pessoal">Pessoal
+                <br>
+            </label>
+
+            <br>
+            <hr>
+
+            <label>
+                <h4>Palavras chave:</h4>
+                <input type="checkbox" name="palavra_chave" value="materia_extensao">Atividades de
+                Extensão I
+                <br>
+                <input type="checkbox" name="palavra_chave" value="materia__expressao">Comunicação e
+                Expressão
+                <br>
+                <input type="checkbox" name="palavra_chave" value="materia_estatistica">Fundamentos de
+                Probabilidade e Estatística
+                <br>
+                <input type="checkbox" name="palavra_chave" value="materia_frontend">Programação
+                Frontend I
+                <br>
+                <input type="checkbox" name="palavra_chave" value="materia_poo">Programação Orientada a
+                Objetos
+                <br>
+                <input type="checkbox" name="palavra_chave" value="materia_redes">Redes de Computadores
+                <br>
+                <input type="checkbox" name="palavra_chave" value="tipo_prova">Prova
+                <br>
+                <input type="checkbox" name="palavra_chave" value="tipo_apresentacao">Apresentação
+                <br>
+                <input type="checkbox" name="palavra_chave" value="tipo_trabalho">Trabalho
+                <br>
+                <input type="checkbox" name="palavra_chave" value="tipo_relatório">Relatório
+                <br>
+                <input type="checkbox" name="palavra_chave" value="tipo_individual">Individual
+                <br>
+                <input type="checkbox" name="palavra_chave" value="tipo_grupo">Em grupo
+            </label>
+
+            <br>
+            <br>
+            <hr>
+
+            <label>
+                <b>Envie um arquivo, se necessário: </b>
+                <br>
+                <input type="file" name="arquivo" accept=".jpg, .png">
+            </label>
+
+            <br>
+            <br>
+            <br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
 
         </form>
     </section>
