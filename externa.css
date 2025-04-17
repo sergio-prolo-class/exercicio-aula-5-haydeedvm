@@ -1,0 +1,26 @@
+h1 {
+    font-size: 28px;
+    color: #e11369;
+}
+
+h2,
+h3 {
+    color: #cb6590;
+    font-size: 22px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #1a1a1a;
+    background-color: #befbbe;
+}
+
+table {
+    font-family: Arial, sans-serif;
+}
+
+hr {
+    height: 1px;
+    background-color: #1a1a1a;
+}
