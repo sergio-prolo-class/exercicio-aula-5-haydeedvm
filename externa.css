@@ -43,11 +43,35 @@ section {
 
 .caixa-habilidades {
     background-color: #4ab86f;
-    border: 2px;
-    border-style: solid;
+    border: 2px solid #000;
     border-width: 5px;
     padding: 20px;
     margin: 30px;
     height: 300px;
     overflow: auto;
+}
+
+.secao-onibus {
+    background-color: purple;
+}
+
+.secao-onibus td {
+    background-color: #d79cee;
+}
+
+.secao-onibus td:hover {
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+#disciplinas dd {
+    color: rgb(16, 150, 139);
+}
+
+#disciplinas a {
+    color: inherit;
+}
+
+.destaque {
+    font-weight: bold;
 }
