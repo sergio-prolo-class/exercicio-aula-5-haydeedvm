@@ -75,3 +75,7 @@ section {
 .destaque {
     font-weight: bold;
 }
+
+.container-flex {
+    display: flex;
+}
