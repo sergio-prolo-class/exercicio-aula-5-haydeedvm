@@ -10,12 +10,12 @@ html {
 
 h1 {
     font-size: 28px;
-    color: #e11369;
+    color: #faf2ed;
 }
 
 h2,
 h3 {
-    color: #cb6590;
+    color: #eb7661;
     font-size: 22px;
 }
 
@@ -23,7 +23,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: #1a1a1a;
-    background-color: #befbbe;
+    background-color: #f08e71;
 }
 
 table {
@@ -41,10 +41,16 @@ section {
     background-color: #FFF4EC;
 }
 
+article {
+    padding: 1.5em;
+    margin: 1em;
+    background-color: #FFF4EC;
+}
+
 .caixa-habilidades {
-    background-color: #4ab86f;
+    background-color: #7dc0b9;
     border: 2px solid #000;
-    border-width: 5px;
+    border-width: 2px;
     padding: 20px;
     margin: 30px;
     height: 300px;
@@ -52,15 +58,15 @@ section {
 }
 
 .secao-onibus {
-    background-color: purple;
+    background-color: lightseagreen;
 }
 
 .secao-onibus td {
-    background-color: #d79cee;
+    background-color: #7dc0b9;
 }
 
 .secao-onibus td:hover {
-    border: 2px solid red;
+    border: 2px solid rgb(236, 104, 16);
     cursor: pointer;
 }
 
@@ -91,7 +97,7 @@ section {
 }
 
 .primeiraColuna li:hover {
-    background-color: #1bab9f;
+    background-color: #7dc0b9;
 }
 
 .musicas li::before {
